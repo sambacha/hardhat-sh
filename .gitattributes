@@ -1,0 +1,6 @@
+*.sh     eol=lf
+*.bash   eol=lf
+
+/.editorconfig      export-ignore
+/.gitattributes     export-ignore
+

@@ -1,0 +1,8 @@
+# npm
+/bats-*.tgz
+.DS_Store
+node_modules
+*.tar.gz
+*.tgz
+*.zip
+*.log
