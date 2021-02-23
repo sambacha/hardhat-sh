@@ -1,6 +1,6 @@
-#!/bin/bash 
+#!/bin/bash
 # shellcheck disable=SC2034,SC2059
-# hardcode flag enable 
+# hardcode flag enable
 installed_flag=1
 
 setup_color() {
@@ -26,7 +26,7 @@ install_hardhat() {
   echo "Installing Hardhat ..."
 if ! node --version; then
  npm install -D hardhat hardhat-deploy ethereum-waffle prettier prettier-plugin-solidity solhint solhint-plugin-prettier
-  wget https://raw.githubusercontent.com/sambacha/hardhat-sh/master/hardhat.config.js 
+  wget https://raw.githubusercontent.com/sambacha/hardhat-sh/master/hardhat.config.js
   else
     echo "Looks like there was an error while trying to use NodeJS"
     exit 0
@@ -35,14 +35,14 @@ if ! node --version; then
 
 completed() {
   printf '\n'
-  printf "$GREEN" 
+  printf "$GREEN"
   echo "HardHat was successfully installed."
   echo "To use HardHat in your current shell run:"
   echo "source \$HOME/.HardHat/source.sh"
   echo "When you open a new shell this will be performed automatically."
   echo "To see what HardHat's CLI can do you can check the documentation bellow."
   echo "https://docs.HardHat.org/"
-  printf "$RESET" 
+  printf "$RESET"
   exit 0
 }
 
@@ -52,7 +52,7 @@ main() {
     install_hardhat
     completed
   else
-    completed    
+    completed
   fi
 }
 

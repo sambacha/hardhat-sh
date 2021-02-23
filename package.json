@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/sambacha/hardhat-sh/issues"
   },
-  "homepage": "https://github.com/sambacha/hardhat-sh#readme"
+  "homepage": "https://github.com/sambacha/hardhat-sh#readme",
+  "devDependencies": {
+    "editorconfig-checker": "^3.3.0"
+  }
 }
