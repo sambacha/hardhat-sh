@@ -26,6 +26,7 @@ install_hardhat() {
   echo "Installing Hardhat ..."
 if ! node --version; then
  npm install -D hardhat hardhat-deploy ethereum-waffle prettier prettier-plugin-solidity solhint solhint-plugin-prettier
+  wget https://raw.githubusercontent.com/sambacha/hardhat-sh/master/hardhat.config.js 
   else
     echo "Looks like there was an error while trying to use NodeJS"
     exit 0

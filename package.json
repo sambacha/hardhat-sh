@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "hardhat init",
   "main": "index.js",
-  "bin": "init.sh",
+  "bin": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "exec": "./init/sh && exit 0"
   },
   "repository": {
     "type": "git",
