@@ -1,3 +1,15 @@
 opt/
 .github/
-
+HH_ERRORS.js
+HH_ERRORS_VERBOSE.js
+Makefile
+#README.md
+errorlist.ts
+hardhatErrors.js
+hh.bash
+#index.js
+node_modules
+opt
+#package-lock.json
+#package.json
+#src
